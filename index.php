@@ -10,14 +10,4 @@
     define('BASEPATH', realpath(dirname(__FILE__)));
     require_once BASEPATH.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
 
-    $router = new Router();
-
-    $router->addRoute('/', function () {
-        echo file_get_contents('views/home.html');
-    });
-
-    $router->addRoute('404', function () {
-        die('Page not found');
-    });
-
-    $router->execute();
+    $app = new AppController();
