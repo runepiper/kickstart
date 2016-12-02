@@ -1,5 +1,7 @@
 <?php
 
+namespace Kickstart\Base;
+
 class Router
 {
     private $routes = [];
