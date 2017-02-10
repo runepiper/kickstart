@@ -5,5 +5,6 @@
     });
 
     $router->addRoute('404', function () {
+        http_response_code(404);
         die('Page not found');
     });
