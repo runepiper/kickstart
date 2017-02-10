@@ -3,5 +3,8 @@
         "psr-4": {
             "Kickstart\\": "classes/Kickstart"
         }
+    },
+    "require": {
+        "symfony/yaml": "^3.2"
     }
 }
