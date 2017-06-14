@@ -1,2 +1,4 @@
 Kickstart:
-  someVariable: 1
+  layoutRootPath: 'views/layouts'
+  templateRootPath: 'views/templates'
+  partialRootPath: 'views/partials'

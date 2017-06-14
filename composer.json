@@ -9,6 +9,7 @@
         "php": "^7",
         "symfony/config": "^3.2",
         "symfony/routing": "^3.2",
-        "symfony/yaml": "^3.2"
+        "symfony/yaml": "^3.2",
+        "typo3fluid/fluid": "^2.3"
     }
 }

@@ -1,10 +1,12 @@
 <?php
 namespace Kickstart\Controller;
 
-class ContentController
+class ContentController extends AbstractBaseController
 {
     public function indexAction()
     {
-        return require dirname(dirname(__DIR__)) . '/views/index.html';
+        $this->view->getRenderingContext()->setControllerAction('index');
+
+        $this->view->assign('helloWorld', 'Hello World');
     }
 }
